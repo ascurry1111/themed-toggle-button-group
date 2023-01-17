@@ -128,14 +128,14 @@ class ThemedButton : RelativeLayout {
         get() = ivIcon.background
         set(icon) {
             ivIcon.setImageDrawable(icon)
-            ivIcon.layoutParams = LayoutParams(80.px,80.px)
+            ivIcon.layoutParams = LayoutParams(160.px,160.px)
         }
 
     var selectedIcon: Drawable
         get() = ivIcon.background
         set(icon) {
             ivSelectedIcon.setImageDrawable(icon)
-            ivSelectedIcon.layoutParams = LayoutParams(80.px,80.px)
+            ivSelectedIcon.layoutParams = LayoutParams(160.px,160.px)
         }
 
     var borderWidth: Float
